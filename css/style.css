@@ -1,0 +1,153 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.navbar-brand{
+	font-weight: 400;
+	font-family: 'Koulen', cursive;
+	font-size: 40px;
+}
+
+.parallax{
+    background-image: url(../assets/img/back-ground3-1920px.jpg);
+    background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size:  cover;
+	height: 500px;
+}
+
+.our-mision-parent{
+	background-color: rgba(128, 128, 128, 0.13);
+	transition: background-color 900ms;
+}
+
+.our-mision-parent:hover{
+background-color: rgba(128, 128, 128, 0.301);
+}
+
+.box-parent{
+	margin: 5px;
+	padding: 3px; 
+}
+
+.box-section1{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+	width: 80%;
+}
+
+.img-box1{
+	width: 60%;
+	border-radius: 500px;
+}
+
+.h2-boxsection2{
+	text-align: end;
+}
+
+.box-section2-parent{
+	display: flex;
+	flex-direction: row;
+}
+
+.box-section2half{
+	width: 50%;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	padding-right: 15px;
+}
+
+.img-box2{
+	width: 45%;
+	border-radius: 500px;
+}
+
+.box-section2{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	width: 50%;
+}
+
+.box-section3{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+	width: 100%;
+}
+
+.img-box3{
+	width: 90%;
+	border-radius: 500px;
+}
+
+.boxes-parent{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	list-style-type: none;
+	padding: 0;
+}
+
+.boxes-blocks{
+	width: 25%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.boxes-blocks:hover{
+	transform: scale(0.9,0.9);
+}
+
+.boxes-content{
+	text-decoration: none;
+	text-align: center;
+}
+
+.img-box{
+	width: 80%;
+	border-radius: 500px;
+}
+
+.parallax2{
+    background-image: url(../assets/img/back-ground1-1920px.jpg);
+    background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size:  cover;
+	height: 500px;
+}
+
+.box-footer-parent{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	width: 100%;
+	height: 100%;
+	font-weight: bold;
+}
+
+.img-vcard{
+	width: 32px;
+}
+
+.text-vcard{
+	text-decoration: none;
+}
+
+.box-footer1{
+	height: 25%;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	align-items: center;
+}
