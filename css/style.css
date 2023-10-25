@@ -1,153 +1,219 @@
-*{
+* {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
 }
 
-.navbar-brand{
-	font-weight: 400;
-	font-family: 'Koulen', cursive;
-	font-size: 40px;
+@media screen and (min-width: 390px) {
+	.navbar {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+
+		.navbar-brand {
+			font-weight: 400;
+			font-family: 'Koulen', cursive;
+			font-size: 40px;
+		}
+
+		.nav {
+			font-family: 'alumni', ;
+			font-weight: 600;
+			font-size: 16px;
+
+			.dropdown-item {
+				font-family: 'alumni', ;
+				font-weight: 600;
+				font-size: 14px;
+			}
+		}
+
+	}
+
+	.parallax {
+		background-image: url(../assets/img/back-ground3-1920px.jpg);
+		background-attachment: fixed;
+		background-repeat: no-repeat;
+		background-size: 640px;
+		height: 270px;
+	}
+
+	/*MAIN CONTENT*/
+	.main-parent {
+		.our-mision-parent {
+			background-image: url(../assets/other/bgctech1280.jpg);
+			background-size: 400px;
+			height: 50px;
+			font-weight: 400;
+			font-family: 'Koulen', cursive;
+			font-size: 25px;
+			color: white;
+		}
+
+		.box-parent {
+			margin: 5px;
+			padding: 3px;
+
+			.h1-box1 {
+				font-family: 'alumni';
+				font-weight: 500;
+				font-size: 30px;
+			}
+
+			.box-section1 {
+				display: flex;
+				flex-direction: row;
+				justify-content: flex-start;
+				align-items: center;
+
+				.parrafo-box1 {
+					width: 60%;
+					font-family: 'alumni';
+					font-weight: 200;
+					font-size: 15px;
+				}
+
+				.img-box1 {
+					width: 40%;
+					border-radius: 500px;
+				}
+			}
+
+			.h2-box2 {
+				text-align: end;
+				font-family: 'alumni';
+				font-weight: 500;
+				font-size: 30px;
+			}
+
+			.box-section2 {
+				display: flex;
+				flex-direction: row;
+				justify-content: flex-end;
+
+				.img-box2 {
+					width: 40%;
+					border-radius: 500px;
+				}
+
+				.parrafo-section2 {
+					width: 60%;
+					padding-left: 10px;
+					font-family: 'alumni';
+					font-weight: 200;
+					font-size: 15px;
+				}
+			}
+
+			.h3-box3 {
+				font-family: 'alumni';
+				font-weight: 500;
+				font-size: 30px;
+			}
+
+
+
+			.box-section3 {
+				display: flex;
+				flex-direction: row;
+				justify-content: flex-start;
+				align-items: center;
+				width: 100%;
+
+				.parrafo-section3 {
+					width: 60%;
+					font-family: 'alumni';
+					font-weight: 200;
+					font-size: 15px;
+				}
+
+				.img-box3 {
+					width: 40%;
+					border-radius: 500px;
+				}
+			}
+		}
+
+		.boxes-grand-parent {
+			.boxes-parent {
+				display: flex;
+				flex-direction: row;
+				justify-content: center;
+				list-style-type: none;
+				padding: 0;
+
+				.boxes-blocks {
+					width: 25%;
+					display: flex;
+					flex-direction: column;
+					align-items: center;
+
+					.img-box {
+						width: 80%;
+						border-radius: 500px;
+					}
+
+					.boxes-content {
+						text-decoration: none;
+						text-align: center;
+						font-family: 'alumni';
+						font-weight: 500;
+						font-size: 14px;
+						color: black;
+					}
+
+
+				}
+			}
+		}
+	}
+
+	/*FOOTER*/
+	.parallax2 {
+		background-image: url(../assets/img/back-ground1-1920px.jpg);
+		background-attachment: fixed;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		height: 500px;
+
+		.box-footer-parent {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			text-align: center;
+			width: 100%;
+			height: 100%;
+			font-weight: bold;
+
+			.box-footer1 {
+				height: 25%;
+				display: flex;
+				flex-direction: column;
+				justify-content: flex-end;
+				align-items: center;
+
+				.img-vcard {
+					width: 32px;
+				}
+
+				.text-vcard {
+					text-decoration: none;
+					font-weight: 400;
+					font-family: 'Koulen', cursive;
+					font-size: 20px;
+				}
+			}
+			.box-footer1{
+				font-weight: 400;
+					font-family: 'Koulen', cursive;
+					font-size: 17px;
+			}
+		}
+	}
 }
 
-.parallax{
-    background-image: url(../assets/img/back-ground3-1920px.jpg);
-    background-attachment: fixed;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size:  cover;
-	height: 500px;
-}
 
-.our-mision-parent{
-	background-color: rgba(128, 128, 128, 0.13);
-	transition: background-color 900ms;
-}
-
-.our-mision-parent:hover{
-background-color: rgba(128, 128, 128, 0.301);
-}
-
-.box-parent{
-	margin: 5px;
-	padding: 3px; 
-}
-
-.box-section1{
-	display: flex;
-	flex-direction: row;
-	justify-content: flex-start;
-	align-items: center;
-	width: 80%;
-}
-
-.img-box1{
-	width: 60%;
-	border-radius: 500px;
-}
-
-.h2-boxsection2{
-	text-align: end;
-}
-
-.box-section2-parent{
-	display: flex;
-	flex-direction: row;
-}
-
-.box-section2half{
-	width: 50%;
-	display: flex;
-	flex-direction: row;
-	justify-content: flex-end;
-	padding-right: 15px;
-}
-
-.img-box2{
-	width: 45%;
-	border-radius: 500px;
-}
-
-.box-section2{
-	display: flex;
-	flex-direction: row;
-	justify-content: flex-end;
-	width: 50%;
-}
-
-.box-section3{
-	display: flex;
-	flex-direction: row;
-	justify-content: flex-start;
-	align-items: center;
-	width: 100%;
-}
-
-.img-box3{
-	width: 90%;
-	border-radius: 500px;
-}
-
-.boxes-parent{
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	list-style-type: none;
-	padding: 0;
-}
-
-.boxes-blocks{
-	width: 25%;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-}
-
-.boxes-blocks:hover{
-	transform: scale(0.9,0.9);
-}
-
-.boxes-content{
-	text-decoration: none;
-	text-align: center;
-}
-
-.img-box{
-	width: 80%;
-	border-radius: 500px;
-}
-
-.parallax2{
-    background-image: url(../assets/img/back-ground1-1920px.jpg);
-    background-attachment: fixed;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size:  cover;
-	height: 500px;
-}
-
-.box-footer-parent{
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	text-align: center;
-	width: 100%;
-	height: 100%;
-	font-weight: bold;
-}
-
-.img-vcard{
-	width: 32px;
-}
-
-.text-vcard{
-	text-decoration: none;
-}
-
-.box-footer1{
-	height: 25%;
-	display: flex;
-	flex-direction: column;
-	justify-content: flex-end;
-	align-items: center;
+.boxes-blocks:hover {
+	transform: scale(0.9, 0.9);
 }
