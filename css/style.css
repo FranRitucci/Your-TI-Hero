@@ -204,10 +204,75 @@
 					font-size: 20px;
 				}
 			}
-			.box-footer1{
+
+			.box-footer1 {
 				font-weight: 400;
-					font-family: 'Koulen', cursive;
-					font-size: 17px;
+				font-family: 'Koulen', cursive;
+				font-size: 17px;
+			}
+		}
+	}
+
+	/*V-CARD*/
+	.vcard-grandparent {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+
+		.vcard-parent {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			background-image: url(../assets/other/abstract-background_1280.jpg);
+			width: 80%;
+
+
+			.vcard-img {
+				display: flex;
+				justify-content: center;
+
+				.img-profile {
+					width: 100%;
+				}
+			}
+
+			.vcard-content {
+				width: 100%;
+
+				.vcardbox-1 {
+					display: flex;
+					flex-direction: row;
+					justify-content: center;
+
+					.sub-box1 {
+						display: flex;
+						flex-direction: row;
+						align-items: center;
+						width: 100%;
+						background-color: #f0f0f0;
+
+						.contenedor-imgbox1 {
+							display: flex;
+							justify-content: center;
+							width: 20%;
+							
+
+							.img-box1 {}
+						}
+
+						.contenedor-parrafobox1 {
+							
+							.parrafo-box1 {
+								width: 100%;
+								
+								
+							}
+						}
+
+
+					}
+
+				}
 			}
 		}
 	}
