@@ -223,45 +223,60 @@
 			display: flex;
 			flex-direction: column;
 			align-items: center;
-			background-image: url(../assets/other/abstract-background_1280.jpg);
-			width: 80%;
-
 
 			.vcard-img {
 				display: flex;
-				justify-content: center;
-
-				.img-profile {
-					width: 100%;
-				}
-			}
-
-			.vcard-content {
+				flex-direction: column;
+				align-items: center;
+				background-color: blue;
 				width: 100%;
-
-				.vcardbox-1 {
+				.border-img{
+					border: solid white;
+					border-width: 10px;
+					border-radius: 500px;
+					width: 55%;
+					.img-profile {
+						border-radius: 500px;
+						width: 100%;
+					}
+				}
+				.cotainer-iconos{
 					display: flex;
 					flex-direction: row;
 					justify-content: center;
-
-					.sub-box1 {
+					.icono1{
 						display: flex;
-						flex-direction: row;
+						flex-direction: column;
 						align-items: center;
-						width: 100%;
-						background-color: #f0f0f0;
-
-						.contenedor-imgbox1 {
-							display: flex;
-							justify-content: center;
-							width: 20%;
+						.icono1-img{
+							background-color: #669cff;
+							border-radius: 100px;
+						}
+					}
+					.icono2{
+						display: flex;
+						flex-direction: column;
+						align-items: center;
+						.icono2-img{
+							background-color: #669cff;
+							border-radius: 100px;
 						}
 					}
 				}
 			}
+
+			.vcard-content {
+				.vcardbox {
+					.sub-box {
+						display: flex;
+						text-align: center;
+					}
+				}
+			}
+		}
 		}
 	}
-}
+	#669cff
 
 
 .boxes-blocks:hover {
